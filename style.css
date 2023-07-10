@@ -1,0 +1,44 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+p {
+    color: var(--grayish-blue);
+    font-size: 15 px;
+    padding: 0 1rem;
+    margin-top: -5px;
+}
+
+h2{
+    margin-top: -2 px;
+    color: var(--dark-blue);
+}
+
+p, h2 {
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: var(--light-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.card {
+    background-color: var(--white);
+    border-radius: 1rem;
+    padding: 0.9rem;
+    width: 300px;
+}
+
+#jojoberlari {
+    border-radius: 1rem;
+    max-width:100%;
+}
